@@ -144,7 +144,7 @@ legend.onAdd = function() {
  /*
   Add Style the lines with a color and weight that will make it stand out on all maps.
  */
-function polyLineStyle(feature){
+function polyLineStyle(feature){ 
   console.log("polyLineStyle is being called");
   return {
     // ambre is the best color for showing
